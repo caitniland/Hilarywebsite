@@ -1,0 +1,381 @@
+html, body{
+	background:#F5F5F5;
+	margin: 0;
+	padding: 0;
+}
+
+a:visited{
+	color: #511b48;
+}
+
+
+a:hover{
+	color: #511b48;
+}
+
+.banner img{
+	display: block;
+	margin-left: auto;
+    margin-right: auto;
+	padding-bottom: 50px;
+	padding-top: 20px;
+}
+
+
+h1{
+	font-family: 'Clicker Script', cursive;
+	font-size:	100px;
+	white-space: nowrap;
+	font-weight: 200;
+}
+
+.menu{
+	text-align: center;
+	padding-bottom: 60px;
+}
+
+
+.menu a{
+	text-align: center;
+	display: inline-block;
+	width: 20%;
+	font-family: 'Amatic SC', latin;
+	font-size: 35px;
+	font-weight: thin;
+	text-decoration: none;
+	color: #090108;
+	background-image: url(img/greenbuttonbigger.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	padding-left: 15px;
+	padding-right: 10px;
+	vertical-align: middle;
+}
+
+.arrowlayout{
+	padding-top: 50px;
+	text-align: center;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.arrowlayout img, .arrowlayout div, .arrowlayout span {
+	text-align: center;
+	font-weight: bold;
+	padding-top: 35px;
+	display: inline-block;
+	width: 20%;
+	font-family: 'Clicker Script', cursive;
+	font-size: 45px;
+	font-weight: thin;
+}
+
+.generaldetailstext {
+	text-align: center;
+	display: inline-block;
+	font-family: 'Amatic SC', latin;
+	font-size: 28px;
+}
+
+.generaldetailstext ul{
+	list-style: none;
+}
+
+.detailstext{
+	display: inline-block;
+	text-align: center;
+}
+
+
+.locationtext{
+	font-family: 'Amatic SC', latin;
+	font-size: 30px;
+	text-align: right;
+}
+
+.location p{
+	font-family: 'Amatic SC',latin;
+}
+
+
+.row {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.column-4{
+	padding-bottom: 1px;
+}
+
+.locationtext {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+
+.barn{
+	padding-left: 10px;
+}
+.location img{ 
+	padding-right: 10px;
+}
+
+.location .westmonitorbarn{
+	font-family: 'Clicker Script', script;
+	font-size: 28px;
+	font-weight: bold;
+}
+
+.address {
+	text-align: left;
+	font-size: 26px;
+	font-family: 'Amatic SC',latin;
+}
+
+.directions a {
+	font-size: 38px;
+	font-weight: bold;
+	text-align: left;
+	font-family: 'Clicker Script', script;
+	white-space: nowrap;
+  	overflow: hidden;
+}
+
+.detailstable td{
+	font-size: 38px;
+	font-weight: bold;
+	text-align: left;
+	font-family: 'Clicker Script', script;
+	white-space: nowrap;
+  	overflow: hidden;
+}
+
+
+.detailstable .fromthenorthtext{
+	font-family: 'Amatic SC', latin;
+	font-size: 24px;
+	font-weight: normal;
+}
+
+.detailstable .fromthesouthtext{
+	font-family: 'Amatic SC', latin;
+	font-size: 24px;
+	font-weight: normal;
+}
+
+.detailstable .accomodationstext{
+	font-family: 'Amatic SC', latin;
+	font-size: 24px;
+	font-weight: normal;
+}
+
+.directions .hotellink{
+	font-family: 'Amatic SC', latin;
+	font-size: 28px;
+}
+
+.directions span {
+	font-size: 24px;
+	font-weight: normal;
+	font-family: 'Amatic SC', latin;
+}
+
+.detailstable{
+	margin: 0 auto;
+	border-spacing: 15px;
+}
+
+.tablediamonds{
+	text-align: center;
+}
+
+.directions .detailstable .spaceunder {
+	padding-bottom: 35px;
+}
+
+.directions .googlemap{
+	margin: 0 auto;
+}
+
+.location .threediamonds{
+	text-align: center;
+	margin: 0 auto;
+	padding-top: 8px;
+}
+
+.arrowlayout2{
+	padding-top: 50px;
+	text-align: center;
+}
+
+.registryinfo{
+	text-align: center;
+	font-size: 38px;
+	font-weight: bolder;
+	font-family: 'Clicker Script', cursive;
+	text-align: center;
+}
+
+.registryinfo .registrylink{
+	text-align: center;
+	font-size: 45px;
+	font-weight: bold;
+	font-family: 'Clicker Script', cursive;
+	text-align: center;
+}
+
+.arrowlayout2 img, .arrowlayout2 a {
+	text-align: center;
+	font-weight: bold;
+	padding-top: 35px;
+	display: inline-block;
+	width: 20%;
+	font-family: 'Clicker Script', cursive;
+	font-size: 45px;
+	font-weight: thin;
+}
+
+.ustable .spaceunder{
+	padding-bottom:35px;
+}
+
+.ustable span {
+	font-size: 32px;
+	font-weight: normal;
+	font-family: 'Amatic SC', latin;
+	text-align: center;
+}
+
+
+.ustable {
+	margin: 0 auto;
+	border-spacing: 15px;
+}
+
+.endpic {
+	text-align: center;
+}
+
+.arrowlayout3 img, .arrowlayout3 span {
+	text-align: center;
+	font-weight: bold;
+	padding-top: 35px;
+	display: inline-block;
+	width: 20%;
+	font-family: 'Clicker Script', cursive;
+	font-size: 48px;
+	font-weight: thin;
+}
+
+.arrowlayout3{
+	padding-top: 50px;
+	text-align: center;
+}
+
+.rsvpbottomflowers{
+	padding-top: 1px;
+	text-align: center;
+}
+
+.endpic{
+	display: block;
+	margin-left: auto;
+    margin-right: auto;
+}
+
+.wufoo-form-container{
+	max-width: 500px;
+	display: block;
+	margin-left: auto;
+    margin-right: auto;
+    font-family: 'Amatic SC', latin;
+}
+
+.form{
+	display: block;
+}
+
+
+
+}
+
+
+
+} 
+/*comment.menu .detailsbutton{
+	background-image: url(img/purplebutton.jpg);
+	background-repeat: no-repeat;
+/ 
+
+
+
+
+
+.menu .wrap{
+	display: flex;
+	align-items: center;
+}
+
+
+.rsvplink{
+	text-align: center;
+}
+
+.weddingdetailslink{
+	text-align: center;
+}
+
+.aboutuslink{
+
+}
+
+.wrapper{
+	max-width: 1050px;
+	margin: 15px auto;
+	position: relative;	
+}
+
+.cornerflowers{
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.cornerflowers.right{
+	right:0;
+	left: inherit;
+}
+
+.banner{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.wreath{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.theparty{
+	font-size: 150px;
+}
+
+body {
+	font-family: 'Amatic SC', cursive;
+}
+
+.headerwreath {
+	background: url(img/wreath.png);
+	width: 334px;
+	height: 400px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	background-repeat: no-repeat;
+	background-position: center;
+
+}
