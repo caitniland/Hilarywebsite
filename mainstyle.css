@@ -21,6 +21,11 @@ a:hover{
 	padding-top: 20px;
 }
 
+.menu .detailsbutton{
+  white-space: nowrap;
+  overflow: hidden;
+}
+
 
 h1{
 	font-family: 'Clicker Script', cursive;
@@ -207,6 +212,7 @@ h1{
 
 .arrowlayout2{
 	padding-top: 50px;
+	padding-bottom: 20px;
 	text-align: center;
 }
 
@@ -256,6 +262,7 @@ h1{
 
 .endpic {
 	text-align: center;
+	padding-top: 30px;
 }
 
 .arrowlayout3 img, .arrowlayout3 span {
@@ -277,6 +284,9 @@ h1{
 .rsvpbottomflowers{
 	padding-top: 1px;
 	text-align: center;
+	display: block;
+	margin-left: auto;
+    margin-right: auto;
 }
 
 .endpic{
